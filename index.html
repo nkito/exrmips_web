@@ -27,7 +27,7 @@
         }
         async function load_sample_flash(){
           try {
-            const response = await fetch("https://github.com/nkito/exmips_images/raw/refs/heads/main/20250321_firm_u-boot_initramfs.bin");
+            const response = await fetch("20250321_firm_u-boot_initramfs.bin");
             
             if (response.ok) {
               const arrayBuffer = await response.arrayBuffer();
