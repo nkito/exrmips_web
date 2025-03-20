@@ -1,0 +1,16 @@
+{
+  "name": "exrmips1",
+  "type": "module",
+  "description": "MIPS32R2 simulator",
+  "version": "0.1.0",
+  "files": [
+    "exrmips1_bg.wasm",
+    "exrmips1.js",
+    "exrmips1.d.ts"
+  ],
+  "main": "exrmips1.js",
+  "types": "exrmips1.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

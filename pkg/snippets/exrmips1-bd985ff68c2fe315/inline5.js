@@ -1,0 +1,1 @@
+export function get_requested_flash_capacity(){ return document.getElementById('flash_capacity').value; }

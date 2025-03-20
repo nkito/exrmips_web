@@ -1,0 +1,1 @@
+export function check_image_avail(){ return image_avail; }

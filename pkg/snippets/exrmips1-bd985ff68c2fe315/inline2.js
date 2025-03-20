@@ -1,0 +1,1 @@
+export function clear_image_data(){ image_avail = false; image_data = 0; }

@@ -1,0 +1,1 @@
+export function get_char(){ if(recv_fifo.length != 0){ return recv_fifo.shift(); }else{ return 0; } }

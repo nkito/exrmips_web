@@ -1,0 +1,1 @@
+export function print_string(a){ term.write(a); }
